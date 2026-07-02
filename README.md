@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Newsagent Bill Tracker
 
-# Run and deploy your AI Studio app
+A simple app to track and manage bills for a newsagent business — keep tabs on supplier invoices, due dates, and payment status in one place.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/77f08bc3-79da-48e2-870c-decdc2982b62
+- Add, edit, and delete bills
+- Track due dates and payment status (paid / unpaid / overdue)
+- View bills by supplier, date, or status
+- Get a quick overview of upcoming and overdue payments
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+### Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nikhiluke/newsagent-bill-tracker.git
+   cd newsagent-bill-tracker
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
 3. Run the app:
-   `npm run dev`
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+## Project Structure
+
+## Roadmap
