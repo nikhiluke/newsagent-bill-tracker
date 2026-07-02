@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Newspaper Distributor Ledger",
+  "description": "A modern, mobile-first digital ledger system for newspaper distributors to manage customers, track monthly payments, maintain histories, and monitor outstanding dues.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

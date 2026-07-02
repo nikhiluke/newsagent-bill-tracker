@@ -1,0 +1,46 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^9.1.0",
+    "@react-native-picker/picker": "2.11.1",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "dotenv": "^17.2.3",
+    "expo": "^54.0.8",
+    "expo-build-properties": "^56.0.19",
+    "expo-file-system": "~19.0.23",
+    "expo-print": "~15.0.8",
+    "expo-sharing": "~14.0.8",
+    "expo-sqlite": "~16.0.10",
+    "lucide-react-native": "^1.21.0",
+    "react": "19.1.4",
+    "react-dom": "19.1.4",
+    "react-native": "^0.81.5",
+    "react-native-picker-select": "^9.3.1",
+    "react-native-safe-area-context": "^5.6.0",
+    "react-native-svg": "^15.12.1",
+    "vite": "^6.2.3",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "^54.0.10",
+    "expo-module-scripts": "^56.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.2",
+    "vite": "^6.2.3"
+  }
+}

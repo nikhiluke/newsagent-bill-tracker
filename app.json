@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Newsagent Bill Tracker",
+    "slug": "Newsagent-bill-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.newsagent.bill.tracker",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "583e9a44-50d8-475c-8618-60cf974c9154"
+      }
+    }
+  }
+}
