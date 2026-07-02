@@ -1,6 +1,6 @@
 # Newsagent Bill Tracker
 
-A simple app to track and manage bills for a newsagent business — keep tabs on supplier invoices, due dates, and payment status in one place.
+A simple app to track and manage bills for a newsagent business — keep tabs on customer invoices, due dates, and payment status in one place.
 
 ## Features
 
