@@ -1,4 +1,4 @@
-package com.newspaper.bill.tracker
+package com.newsagent.bill.tracker
 
 import android.app.Application
 import android.content.res.Configuration
